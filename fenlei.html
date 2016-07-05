@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="ng-scope">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="email=no"/>
+	<title>快速分类</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fenlei.css">
+</head>
+<body> -->
+	<div id="warp">
+		<header class="header" ng-controller="fenlei">
+			<p><span></span><input type="text" placeholder="搜索目的地国/城市/关键词"></p>
+		</header>
+		<section class="main" id="main">
+		<div>
+
+			<h2>业务分类</h2>
+			<ul id="list">
+				<!-- <li ng-repeat="x in names">
+					<a ng-href="#{{x.id}}" ng-click="aa()">
+						<img ng-src="{{x.imgs}}" alt="">
+						<div class="bg"></div>
+						<div class="font">
+							<h4>{{x.title}}</h4>
+							<p>{{x.con}}</p>
+						</div>
+					</a>
+				</li> -->
+			</ul>
+			</div>
+		</section>
+		<footer class="footer">
+			<a href="#">
+				<dl>
+					<dt></dt>
+					<dd>首页</dd>
+				</dl>
+			</a>
+			<a ng-href="#/fenlei" ng-click="aa()">
+				<dl>
+					<dt></dt>
+					<dd>快速分类</dd>
+				</dl>
+			</a>
+			<a href="#">
+				<dl>
+					<dt></dt>
+					<dd>凯撒管家</dd>
+				</dl>
+			</a>
+			<a href="#">
+				<dl>
+					<dt></dt>
+					<dd>个人中心</dd>
+				</dl>
+			</a>
+		</footer>
+	</div>
+<!-- 	<script src="js/angular.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/zepto.js"></script>
+<script src="js/iscroll5.js"></script>
+<script src="js/fontSize.js"></script>
+<script src="js/fenlei.js"></script>
+<script>
+	var app = angular.module('myApp', ['ngRoute']);
+		app.controller('customersCtrl', function($scope, $http) {
+   			 $http.get("data/fenlei.json")
+   			 .success(function(response) {$scope.names = response.fenlei;})
+   			 .error(function(){alert("失败了")})
+	});
+	app.config(['$routeProvider',function($routeProvider){
+		$routeProvider
+						.when('/qianzheng',{
+							templateUrl:"qianzheng.html", 
+							controller:"qianzheng"
+						});
+		}]).controller('home',['$scope',function($scope){
+			$scope.name="这是首页的home控制器"
+		}]);
+
+
+</script>
+</body>
+</html> -->

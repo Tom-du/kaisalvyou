@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="email=no"/>
+	<title>签证</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/qianzheng.css">
+</head>
+<body> -->
+	<div class="" id="warp" ng-controller="qianzheng">
+		<header class="header">
+			<a href="#"></a>
+			<h1>签证</h1>
+			<a href="#"></a>
+		</header>
+		<div class="xuanze">
+			<span>签证国家:</span><b>全部</b><em></em>
+		</div>
+		<button class="btn">查&nbsp;&nbsp;找</button>
+		<p class="hot_tit">热门签证国家</p>
+		<section class="hot_list" id="hot_list">
+			<div>
+			<dl ng-repeat="x in names">
+				<dt><img ng-src="{{x.imgs}}" alt=""></dt>
+				<dd>{{x.country}}</dd>
+			</dl>
+			</div>
+		</section>
+	</div>
+	<!-- <script src="js/angular.min.js"></script>
+	<script src="js/zepto.js"></script>
+	<script src="js/iscroll5.js"></script>
+	<script src="js/fontSize.js"></script>
+	<script src="js/qianzheng.js"></script>
+	<script>
+		var app = angular.module('myApp', []);
+			app.controller('customersCtrl', function($scope, $http) {
+	   			 $http.get("data/hot_country.json")
+	   			 .success(function(response) {$scope.names = response.hot;console.log(response);})
+	   			 .error(function(){alert("失败了")})
+		});
+	</script>
+	</body>
+	</html> -->
