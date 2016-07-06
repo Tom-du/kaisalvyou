@@ -1,0 +1,82 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+html{
+	font-size:100px;
+}
+#warp{
+	width:100%;
+	height:100%;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+}
+.header{
+	width:100%;
+	height:0.5rem;
+	background:#00b0ec;
+	border-bottom:1px solid #646464;
+	position:relative;
+}
+.header h1{
+	text-align:center;
+	line-height:0.5rem;
+	color:#fff;
+	font-size:16px;
+}
+.header a:nth-child(1){
+	position:absolute;
+	width:0.2rem;
+	height:0.2rem;
+	background:url("../images/xue_11.png");
+	background-size:100% auto;
+	background-position:0 -1.35rem;
+	left:0.16rem;
+	top:50%;
+	margin-top:-0.1rem;
+}
+.main{
+	width:100%;
+	-webkit-box-flex:1;
+	overflow:hidden;
+}
+.item{
+	width:100%;
+}
+.item h3{
+	width:100%;
+	line-height:0.4rem;
+	background:#f9f9f9;
+	text-align:center;
+	color:#9f9f9f;
+}
+.item ul{
+	width:100%;
+}
+.item ul li{
+	height:0.35rem;
+	border-bottom:1px solid #eaeaec;
+	margin-left:0.1rem;
+	display:-webkit-box;
+	position:relative;
+}
+.item ul li h5{
+	line-height:0.35rem;
+	color:#4a4d54;
+}
+.item ul li span{
+	position:absolute;
+	line-height:0.35rem;
+	right:0.59rem;
+	color:#4a4d54;
+}
+.item ul li em{
+	position:absolute;
+	width:0.13rem;
+	height:0.13rem;
+	background:url("../images/zm_03.png");
+	background-size:100% 100%;
+	top:50%;
+	margin-top:-0.06rem;
+	right:0.15rem;
+}

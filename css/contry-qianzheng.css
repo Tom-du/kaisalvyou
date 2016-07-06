@@ -1,0 +1,97 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+html{
+	font-size:100px;
+}
+#warp{
+	width:100%;
+	height:100%;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+}
+.header{
+	width:100%;
+	height:0.5rem;
+	background:#00b0ec;
+	position:relative;
+}
+.header h1{
+	text-align:center;
+	line-height:0.5rem;
+	color:#fff;
+	font-size:16px;
+}
+.header a{
+	position:absolute;
+	width:0.2rem;
+	height:0.2rem;
+	background:url("../images/xue_11.png");
+	background-size:100% auto;
+	background-position:0 -1.35rem;
+	left:0.16rem;
+	top:50%;
+	margin-top:-0.1rem;
+}
+.main{
+	width:100%;
+	-webkit-box-flex:1;
+	overflow:hidden;
+}
+.con_icon{
+	width:100%;
+	height:0.87rem;
+	background:#f0eff5;
+}
+.con_icon img{
+	width:0.88rem;
+	height:0.655rem;
+	margin-left: 0.11rem;
+	margin-top:0.107rem;
+}
+#info_list{
+	width:100%;
+}
+#info_list ul{
+	width:100%;
+}
+#info_list ul li{
+	height:0.695rem;
+	border-bottom:1px solid #c7c7c7;
+	position:relative;
+	margin-left:0.1rem;
+}
+#info_list ul li h2{
+	color:#4a4d52;
+	font-size:12px;
+	line-height:0.4rem;
+}
+#info_list ul li p{
+	width:0.5rem;
+	height:0.15rem;
+	background:#8ac93d;
+	border-radius: 0.03rem;
+	position:relative;
+}
+#info_list ul li p b{
+	width:100%;
+	height:100%;
+	color:#fff;
+	text-align:center;
+	line-height:0.15rem;
+	font-size:12px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate3d(-50%,-50%,0);
+	-webkit-transform:scale(0.7);
+	-webkit-transform-origin:-110% -130%;
+}
+#info_list ul li span{
+	position:absolute;
+	right:0.11rem;
+	bottom:0.13rem;
+	font-size:12px;
+	color:#ee9738;
+}

@@ -1,0 +1,92 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+html{
+	font-size:100px;
+}
+#warp{
+	width:100%;
+	height:100%;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+}
+.header{
+	width:100%;
+	height:0.5rem;
+	background:#00b0ec;
+	position:relative;
+}
+.header h1{
+	text-align:center;
+	line-height:0.5rem;
+	color:#fff;
+	font-size:16px;
+}
+.header a{
+	position:absolute;
+	width:0.2rem;
+	height:0.2rem;
+	background:url("../images/xue_11.png");
+	background-size:100% auto;
+	background-position:0 -1.35rem;
+	left:0.16rem;
+	top:50%;
+	margin-top:-0.1rem;
+}
+.main{
+	width:100%;
+	-webkit-box-flex:1;
+	position:relative;
+	overflow:hidden;
+}
+.list{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	display:-webkit-box;
+}
+.main .left{
+	width:1.06rem;
+	height:100%;
+	background:#efeff4;
+	margin-right:0.1rem;
+}
+.main .left ul li{
+	height:0.435rem;
+	line-height:0.435rem;
+	text-align:center;
+	color:#434a54;
+}
+
+.main .left ul .bg{
+	background:#fff;
+}
+.main .right{
+	height:100%;
+	-webkit-box-flex:1;
+	overflow:hidden;
+}
+.right ul{
+	width:100%;
+}
+.right ul li{
+	height:0.43rem;
+	position:relative;
+	border-bottom:1px solid #c8c7cc;
+}
+.right ul li img{
+	width:0.36rem;
+	height: auto;
+	position:absolute;
+	top:50%;
+	margin-top:-0.18rem;
+}
+.right ul li span{
+	padding-left:0.48rem;
+	line-height:0.43rem;
+	color:#444b55;
+	font-size:12px;
+}
